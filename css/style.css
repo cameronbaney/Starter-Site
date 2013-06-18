@@ -74,6 +74,11 @@ table {
 /*--------------------------------------------------------------
 1.2 - TRANSITIONS
 --------------------------------------------------------------*/
+.loading * {
+  transition: none;
+  -moz-transition: none;
+  -webkit-transition: none;
+}
 {
   transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
